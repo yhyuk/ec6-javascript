@@ -11,11 +11,11 @@ $(document).ready(function() {
     // var c;
     // for (var x=25; x<400; x+=50) {
     //     for (var y=25; y<400; y+=50) {
-    //         c = Shape.Circle(x, y, 20);
+    //         c = Shape.Circle(x, y, 20);s
     //         c.fillColor = 'cornflowerblue';
     //     }
     // }
-
+    
     var tool = new Tool();
 
     tool.onMouseDown = function(event) {
